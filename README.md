@@ -19,6 +19,6 @@ A simple RabbitMQ pair of Producers and Consumers to generate logging events usi
 
 ```java -cp .;amqp-client-4.0.2.jar;slf4j-api-1.7.21.jar;slf4j-simple-1.7.22.jar Emitter```
 
-6. If there's no inline arguments passed @ the Emmiter's run command, it will use the default message to log, otherwise, it will use your custom message.
+6. If there are no inline arguments passed @ the Emmiter's run command, it will use the default message to log, otherwise, it will use your custom message.
 
 7. Times are based on the emitter and not on the receiver, so, if somehow a message suffers from a delay before getting processed by the consumer, the registered log will have the date time of the emmiter event execution.
