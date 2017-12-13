@@ -1,0 +1,7 @@
+.idea
+main/main.iml
+main/src/amqp-client-4.0.2.jar
+main/src/Emitter.class
+main/src/Receiver.class
+main/src/slf4j-api-1.7.21.jar
+main/src/slf4j-simple-1.7.22.jar
